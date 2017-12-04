@@ -36,8 +36,8 @@ To Be Done
  
  **First-Person View:**
  
- - 'f' will rotate the camera to simulate a flip
- - 'r' will rotate the camera to simulate a backflip
+ - 'F' will rotate the camera to simulate a flip
+ - 'R' will rotate the camera to simulate a backflip
  - camera will be translated based on simulated gravity
  
  
