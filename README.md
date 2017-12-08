@@ -3,7 +3,7 @@
 ---
 First-person cliff diving game.
 
-User will be able to run and jump and perform flips. If the user lands in the water incorrectly or does not jump on time, an
+User will be able to run and jump and perform flips. If the user lands in the water incorrectly an
 ambient light will make the screen glow red. The scene will include point lights that glow red when the user is unable to jump and green when it is okay to jump.
 
 ---
@@ -26,6 +26,12 @@ Pat Langille
 To Be Done
 ---
 
+- water (collision detection)
+- gravity acceleration
+- geometry shader for the cliff
+- "bad landing" ambient light
+
+---
 **Terrain:**
 
  - textured
@@ -36,9 +42,9 @@ To Be Done
  
  **First-Person View:**
  
- - 'F' will rotate the camera to simulate a flip
- - 'R' will rotate the camera to simulate a backflip
- - camera will be translated based on simulated gravity
+ - 'F' rotates the camera to simulate a flip
+ - 'R' rotates the camera to simulate a backflip
+ - camera is translated based on simulated gravity
  
  
  **Lighting and Shaders:**
@@ -51,10 +57,10 @@ To Be Done
  How to Use
  ---
  
- 1. 'J' will initiate the run leading to the jump
- 2. 'Space' will allow the user to jump
- 3. 'F' will allow the user to perform a front-flip
- 4. 'R' will allow the user to perform a back-flip
- 5. user will then be prompted if they'd like to jump again
+ 1. 'J' initiates the run leading to the jump and the two lights at the top of the cliff will turn from red to green
+ 2. 'Space' allows the user to jump from the cliff
+ 3. 'F' allows the user to perform a front-flip
+ 4. 'R' allows the user to perform a back-flip
+ 5. user is then be prompted if they'd like to jump again
 
 
