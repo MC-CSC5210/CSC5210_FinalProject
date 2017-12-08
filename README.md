@@ -23,31 +23,24 @@ Pat Langille
 
 ---
 
-To Be Done
+Terrain:
 ---
-
-- water (collision detection)
-- gravity acceleration
-- geometry shader for the cliff
-- "bad landing" ambient light
-
----
-**Terrain:**
-
  - textured
  - large
  - water (collision detection)
  - tesselation/geometry shader for cliff and water
+ ---
  
- 
- **First-Person View:**
+ First-Person View:
+ ---
  
  - 'F' rotates the camera to simulate a flip
  - 'R' rotates the camera to simulate a backflip
  - camera is translated based on simulated gravity
  
  
- **Lighting and Shaders:**
+ Lighting and Shaders:
+ ---
  
  - scene should be lit using ambient light (turns red as a result of a bad dive)
  - scene should be lit using directional light from above the scene(like the sun)/will be toggled on and off using 'T' (maybe)
@@ -62,5 +55,16 @@ To Be Done
  3. 'F' allows the user to perform a front-flip
  4. 'R' allows the user to perform a back-flip
  5. user is then be prompted if they'd like to jump again
+ ---
+ 
+ To Be Done
+ ---
+
+ - water (collision detection)
+ - gravity acceleration
+ - geometry shader for the cliff
+ - "bad landing" ambient light
+
+---
 
 
