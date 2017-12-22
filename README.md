@@ -59,11 +59,8 @@ Terrain:
  
  To Be Done
  ---
-
- - water (collision detection)
- - gravity acceleration
+ 
  - geometry shader for the cliff
- - "bad landing" ambient light
 
 ---
 
